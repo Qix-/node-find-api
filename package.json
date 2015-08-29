@@ -28,7 +28,8 @@
     }
   },
   "files": [
-    "index.js"
+    "index.js",
+    "langs.js"
   ],
   "repository": "qix-/node-find-api",
   "devDependencies": {
