@@ -16,8 +16,8 @@ var fs = require('fs');
 var testJs = fs.readFileSync('./test.js').toString();
 var testC = fs.readFileSync('./test.c').toString();
 
-var jsAPIs = findAPI(testJs);
-var cAPIs = findAPI(testC);
+var jsAPIs = findAPI(testJs, 'js');
+var cAPIs = findAPI(testC, 'c');
 
 /*
 	test.js:
