@@ -4,7 +4,7 @@
 This package is a highly-specialized, glorified regex engine that finds
 all API calls in a file.
 
-For most languages, the documentation comment block starts with a double-start
+For most languages, the documentation comment block starts with a double-star
 block comment (e.g. `/**`), though languages that do not have these style of
 comments will require looking up the proper format in [langs.js](langs.js).
 
