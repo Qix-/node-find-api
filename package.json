@@ -1,0 +1,42 @@
+{
+  "name": "find-api",
+  "description": "Finds all of the API calls and docs in a source file",
+  "version": "0.1.0",
+  "author": "Qix (http://github.com/qix-)",
+  "keywords": [
+    "find",
+    "api",
+    "apis",
+    "calls",
+    "call",
+    "documentation",
+    "signature",
+    "jsdoc"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "pretest": "xo",
+    "test": "mocha --compilers coffee:coffee-script/register"
+  },
+  "xo": {
+    "ignores": [
+      "test/lang/**/*"
+    ],
+    "rules": {
+      "no-loop-func": 0,
+      "no-cond-assign": 0
+    }
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": "qix-/node-find-api",
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5",
+    "should": "^7.0.1",
+    "xo": "^0.7.1"
+  }
+}
