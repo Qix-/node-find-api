@@ -1,7 +1,7 @@
 {
   "name": "find-api",
   "description": "Finds all of the API calls and docs in a source file",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Qix (http://github.com/qix-)",
   "keywords": [
     "find",
