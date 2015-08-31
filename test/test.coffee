@@ -26,7 +26,12 @@ testLangs =
       api: 'struct some_struct_t_ ****my_test_func (int a, uint32_t b);'
     }
     {
-      doc: 'Documented function.\nwith multiple lines\nand stars!'
+      doc: 'Documented function.\nwith multiple lines\nand stars!\n\nAnd a ' +
+        'new paragraph!'
+      api: 'struct some_struct_t_ ****my_test_func(int a, uint32_t b);'
+    }
+    {
+      doc: 'Documented bare function.\n\nAnd a new paragraph!'
       api: 'struct some_struct_t_ ****my_test_func(int a, uint32_t b);'
     }
   ]
